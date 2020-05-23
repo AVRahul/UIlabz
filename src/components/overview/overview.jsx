@@ -26,7 +26,7 @@ class Overview extends Component {
           align="top"
         >
           <Col flex={4}>
-            <Card style={{ style, height: 150 }}>
+            <Card hoverable style={{ style, height: 150 }}>
               <h6 className="card-title">Planning</h6>
               <div className="plan-card">
                 <img alt="plan" src="/assets/images/idea.png" />
@@ -34,12 +34,15 @@ class Overview extends Component {
             </Card>
           </Col>
           <Col flex={4}>
-            <Card style={{ style, height: 150 }}>
+            <Card hoverable style={{ style, height: 150 }}>
               <h6 className="card-title">Requirements</h6>
+              <div className="requirement-card">
+                <img alt="requirement" src="/assets/images/require.png" />
+              </div>
             </Card>
           </Col>
           <Col flex={6}>
-            <Card style={{ style, height: 380 }}>
+            <Card hoverable style={{ style, height: 380 }}>
               <h6 className="card-title">Design</h6>
               <div className="design-card">
                 <img alt="design" src="/assets/images/design.png" />
@@ -49,7 +52,7 @@ class Overview extends Component {
         </Row>
         <Row justify="center" align="top" className="row2-card">
           <Col flex={7}>
-            <Card style={{ width: 600, height: 200 }}>
+            <Card hoverable style={{ width: 600, height: 200 }}>
               <h6 className="card-title">Development</h6>
               <div className="develop-card">
                 <img alt="design" src="/assets/images/develop.png" />
@@ -64,7 +67,7 @@ class Overview extends Component {
           align="top"
         >
           <Col flex={4}>
-            <Card style={{ style, height: 250 }}>
+            <Card hoverable style={{ style, height: 250 }}>
               <h6 className="card-title">Testing</h6>
               <div className="test-card">
                 <img alt="design" src="/assets/images/testing.png" />
@@ -72,7 +75,7 @@ class Overview extends Component {
             </Card>
           </Col>
           <Col flex={4}>
-            <Card style={{ style, height: 250 }}>
+            <Card hoverable style={{ style, height: 250 }}>
               <h6 className="card-title">Deployment</h6>
               <div className="deploy-card">
               <img alt="design" src="/assets/images/deploy.png" />
@@ -82,12 +85,15 @@ class Overview extends Component {
         </Row>
         <Row className="row4-card" justify="center" align="top">
           <Col flex={4}>
-            <Card style={{ width: 300, height: 250 }}>
+            <Card hoverable style={{ width: 300, height: 250 }}>
               <h6 className="card-title">Maintenance</h6>
+              <div className="maintain-card">
+                <img alt="requirement" src="/assets/images/maintain.png" />
+              </div>
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: 630, height: 250 }}>
+            <Card hoverable style={{ width: 630, height: 250 }}>
               <h6 className="card-title">Learning</h6>
               <div className="learn-card">
                 <img alt="Leaning" src="/assets/images/learn.png" />
