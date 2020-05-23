@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Row, Col } from "antd";
-import { Card } from "antd";
+import { Row, Col, Card } from "antd";
+
+const style = { background: "#0092ff", padding: "8px 10px" };
 
 class Overview extends Component {
   render() {
@@ -11,68 +12,87 @@ class Overview extends Component {
             <div className="title-section">
               <h1 className="title-text"> Product development process</h1>
               <div className="subtext-block">
-                <p className="subtitle-text">
+                <h4 className="subtitle-text">
                   Deep dive into the various product development process with
                   some amazing curated collection of open source resources.
-                </p>
-              </div>
-            </div>
-            <div className="mt-5  card-element">
-              <div className="site-card-border-less-wrapper">
-                <Card
-                  title="Card title"
-                  bordered={false}
-                  style={{ width: 300 }}
-                >
-                  <p>Card content</p>
-                  <p>Card content</p>
-                </Card>
-              </div>
-              <div className="">
-                <Card
-                  title="Card title"
-                  bordered={false}
-                  style={{ width: 300 }}
-                >
-                  <p>Card content</p>
-                  <p>Card content</p>
-                </Card>
-              </div>
-              <div className="site-card-border-less-wrapper card-title">
-                <Card
-                  title="Card title"
-                  className="card-title"
-                  bordered={false}
-                  style={{ width: 300, height: 400 }}
-                >
-                  <p>Card content</p>
-                  <p>Card content</p>
-                </Card>
+                </h4>
               </div>
             </div>
           </Col>
         </Row>
-        <Row>
-          <Col span={24}>
-            <div className=" card-element layer-two">
-              <div className="site-card-border-less-wrapper">
-                <Card
-                  title="Card title"
-                  className="card-title"
-                  bordered={false}
-                  style={{ width: 630, height: 200 }}
-                >
-                  <p>Card content</p>
-                  <p>Card content</p>
-                </Card>
+        <Row
+          justify="center"
+          gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
+          align="top"
+        >
+          <Col flex={4}>
+            <Card style={{ style, height: 150 }}>
+              <h6 className="card-title">Planning</h6>
+              <div className="plan-card">
+                <img alt="plan" src="/assets/images/idea.png" />
               </div>
-              {/* <div className="site-card-border-less-wrapper">
-              <Card title="Card title" bordered={false} style={{ width: 200 }}>
-                <p>Card content</p>
-                <p>Card content</p>
-              </Card>
-            </div> */}
-            </div>
+            </Card>
+          </Col>
+          <Col flex={4}>
+            <Card style={{ style, height: 150 }}>
+              <h6 className="card-title">Requirements</h6>
+            </Card>
+          </Col>
+          <Col flex={6}>
+            <Card style={{ style, height: 380 }}>
+              <h6 className="card-title">Design</h6>
+              <div className="design-card">
+                <img alt="design" src="/assets/images/design.png" />
+              </div>
+            </Card>
+          </Col>
+        </Row>
+        <Row justify="center" align="top" className="row2-card">
+          <Col flex={7}>
+            <Card style={{ width: 600, height: 200 }}>
+              <h6 className="card-title">Development</h6>
+              <div className="develop-card">
+                <img alt="design" src="/assets/images/develop.png" />
+              </div>
+            </Card>
+          </Col>
+        </Row>
+        <Row
+          className="row3-card"
+          justify="center"
+          gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
+          align="top"
+        >
+          <Col flex={4}>
+            <Card style={{ style, height: 250 }}>
+              <h6 className="card-title">Testing</h6>
+              <div className="test-card">
+                <img alt="design" src="/assets/images/testing.png" />
+              </div>
+            </Card>
+          </Col>
+          <Col flex={4}>
+            <Card style={{ style, height: 250 }}>
+              <h6 className="card-title">Deployment</h6>
+              <div className="deploy-card">
+              <img alt="design" src="/assets/images/deploy.png" />
+              </div>
+            </Card>
+          </Col>
+        </Row>
+        <Row className="row4-card" justify="center" align="top">
+          <Col flex={4}>
+            <Card style={{ width: 300, height: 250 }}>
+              <h6 className="card-title">Maintenance</h6>
+            </Card>
+          </Col>
+          <Col>
+            <Card style={{ width: 630, height: 250 }}>
+              <h6 className="card-title">Learning</h6>
+              <div className="learn-card">
+                <img alt="Leaning" src="/assets/images/learn.png" />
+              </div>
+            </Card>
           </Col>
         </Row>
       </div>

@@ -20,10 +20,8 @@ class SiderMenu extends Component {
         breakpoint="xs"
         collapsedWidth="0"
         onBreakpoint={(broken) => {
-          console.log(broken);
         }}
         onCollapse={(collapsed, type) => {  
-          console.log(collapsed, type);
         }}
         width={220}
       >
@@ -39,9 +37,6 @@ class SiderMenu extends Component {
             <Menu.Item key="7">Maintenance</Menu.Item>
             <Menu.Item key="8">Extras</Menu.Item>
             <Menu.Item key="9">Learn</Menu.Item>
-            {/* <Menu.Item key="10">Inspiration</Menu.Item>
-            <Menu.Item key="11">Showcase</Menu.Item>
-            <Menu.Item key="12">Pitch</Menu.Item> */}
           </Menu>
         </div>
       </Sider>
