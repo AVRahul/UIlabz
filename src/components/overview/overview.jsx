@@ -14,7 +14,7 @@ class Overview extends Component {
               <div className="subtext-block">
                 <h4 className="subtitle-text">
                   Deep dive into the various product development process with
-                  some amazing curated collection of open source resources.
+                  some amazing collection of open source resources.
                 </h4>
               </div>
             </div>
