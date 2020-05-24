@@ -8,13 +8,7 @@ class Planning extends Component {
         <Row>
           <Col span={24}>
             <div className="title-section">
-              <h1 className="title-text"> Planning</h1>
-              <div className="subtext-block">
-                <h4 className="subtitle-text">
-                  Deep dive into the various product development process with
-                  some amazing collection of open source resources.
-                </h4>
-              </div>
+              <h1 className="title-text"> Daddu bosediwala hai</h1>
             </div>
           </Col>
         </Row>

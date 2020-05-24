@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Row, Col, Card } from "antd";
+import { Link } from 'react-router-dom';
 
 const style = { background: "#0092ff", padding: "8px 10px" };
 
@@ -26,38 +27,46 @@ class Overview extends Component {
           align="top"
         >
           <Col flex={4}>
+          <Link to="/planning">
             <Card hoverable style={{ style, height: 150 }}>
               <h6 className="card-title">Planning</h6>
               <div className="plan-card">
                 <img alt="plan" src="/assets/images/idea.png" />
               </div>
             </Card>
+            </Link>
           </Col>
           <Col flex={4}>
+          <Link to="/requirements">
             <Card hoverable style={{ style, height: 150 }}>
               <h6 className="card-title">Requirements</h6>
               <div className="requirement-card">
                 <img alt="requirement" src="/assets/images/require.png" />
               </div>
             </Card>
+            </Link>
           </Col>
           <Col flex={6}>
+          <Link to="/design">
             <Card hoverable style={{ style, height: 380 }}>
               <h6 className="card-title">Design</h6>
               <div className="design-card">
                 <img alt="design" src="/assets/images/design.png" />
               </div>
             </Card>
+            </Link>
           </Col>
         </Row>
         <Row justify="center" align="top" className="row2-card">
           <Col flex={7}>
+          <Link to="/development">
             <Card hoverable style={{ width: 600, height: 200 }}>
               <h6 className="card-title">Development</h6>
               <div className="develop-card">
                 <img alt="design" src="/assets/images/develop.png" />
               </div>
             </Card>
+            </Link>
           </Col>
         </Row>
         <Row
@@ -67,38 +76,46 @@ class Overview extends Component {
           align="top"
         >
           <Col flex={4}>
+          <Link to="/testing">
             <Card hoverable style={{ style, height: 250 }}>
               <h6 className="card-title">Testing</h6>
               <div className="test-card">
                 <img alt="design" src="/assets/images/testing.png" />
               </div>
             </Card>
+          </Link>
           </Col>
           <Col flex={4}>
+          <Link to="/deployment">
             <Card hoverable style={{ style, height: 250 }}>
               <h6 className="card-title">Deployment</h6>
               <div className="deploy-card">
               <img alt="design" src="/assets/images/deploy.png" />
               </div>
             </Card>
+            </Link>
           </Col>
         </Row>
         <Row className="row4-card" justify="center" align="top">
           <Col flex={4}>
+          <Link to="/maintenance">
             <Card hoverable style={{ width: 300, height: 250 }}>
               <h6 className="card-title">Maintenance</h6>
               <div className="maintain-card">
                 <img alt="requirement" src="/assets/images/maintain.png" />
               </div>
             </Card>
+            </Link>
           </Col>
           <Col>
+          <Link to="/learning">
             <Card hoverable style={{ width: 630, height: 250 }}>
               <h6 className="card-title">Learning</h6>
               <div className="learn-card">
                 <img alt="Leaning" src="/assets/images/learn.png" />
               </div>
             </Card>
+            </Link>
           </Col>
         </Row>
       </div>
