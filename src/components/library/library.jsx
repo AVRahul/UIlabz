@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { Row, Col, Card } from "antd";
 
-class Learn extends Component {
+class Library extends Component {
   render() {
     return (
       <>
         <Row justify="center">
           <Col flex={24}>
             <Card className="plan-hero">
-              <h6 className="card-title">Plannning</h6>
+              <h6 className="card-title">Library</h6>
               <div className="develop-card">
                 <img alt="design" src="/assets/images/develop.png" />
               </div>
@@ -104,4 +104,4 @@ class Learn extends Component {
   }
 }
 
-export default Learn;
+export default Library;

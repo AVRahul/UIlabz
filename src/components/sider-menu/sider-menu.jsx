@@ -29,8 +29,8 @@ class SiderMenu extends Component {
         <div className="sidebar">
           <Menu mode="inline" defaultSelectedKeys={["0"]}>
           <Menu.Item key="0"><Link to="/">Overview</Link></Menu.Item>
-            <Menu.Item key="1"><Link to="/planning">Planning</Link></Menu.Item>
-            <Menu.Item key="2"><Link to="/requirements">Requirements</Link></Menu.Item>
+            <Menu.Item key="1"><Link to="/inspiration">Inspiration</Link></Menu.Item>
+            <Menu.Item key="2"><Link to="/library">Library</Link></Menu.Item>
             <Menu.Item key="3"><Link to="/design">Design</Link></Menu.Item>
             <Menu.Item key="4"><Link to="/development">Development</Link></Menu.Item>
             <Menu.Item key="5"><Link to="/testing">Testing</Link></Menu.Item>

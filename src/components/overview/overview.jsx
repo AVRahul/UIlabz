@@ -11,7 +11,7 @@ class Overview extends Component {
         <Row>
           <Col span={24}>
             <div className="title-section">
-              <h1 className="title-text"> Product development process</h1>
+              <h1 className="title-text"> Product development tools</h1>
               <div className="subtext-block">
                 <h4 className="subtitle-text">
                   Deep dive into the various product development process with
@@ -27,9 +27,9 @@ class Overview extends Component {
           align="top"
         >
           <Col flex={4}>
-          <Link to="/planning">
+          <Link to="/inspiration">
             <Card hoverable style={{ style, height: 150 }}>
-              <h6 className="card-title">Planning</h6>
+              <h6 className="card-title">Inspiration</h6>
               <div className="plan-card">
                 <img alt="plan" src="/assets/images/idea.png" />
               </div>
@@ -37,9 +37,9 @@ class Overview extends Component {
             </Link>
           </Col>
           <Col flex={4}>
-          <Link to="/requirements">
+          <Link to="/library">
             <Card hoverable style={{ style, height: 150 }}>
-              <h6 className="card-title">Requirements</h6>
+              <h6 className="card-title">Library</h6>
               <div className="requirement-card">
                 <img alt="requirement" src="/assets/images/require.png" />
               </div>
@@ -60,7 +60,7 @@ class Overview extends Component {
         <Row justify="center" align="top" className="row2-card">
           <Col flex={7}>
           <Link to="/development">
-            <Card hoverable style={{ width: 600, height: 200 }}>
+            <Card hoverable style={{ width: 580, height: 200 }}>
               <h6 className="card-title">Development</h6>
               <div className="develop-card">
                 <img alt="design" src="/assets/images/develop.png" />
@@ -108,7 +108,7 @@ class Overview extends Component {
             </Link>
           </Col>
           <Col>
-          <Link to="/learning">
+          <Link to="/learn">
             <Card hoverable style={{ width: 630, height: 250 }}>
               <h6 className="card-title">Learning</h6>
               <div className="learn-card">

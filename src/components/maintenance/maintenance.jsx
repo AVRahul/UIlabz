@@ -1,19 +1,106 @@
 import React, { Component } from "react";
-import { Row, Col } from "antd";
+import { Row, Col, Card } from "antd";
 
 class Maintenance extends Component {
   render() {
     return (
-      <div className="container">
-      <Row>
-        <Col span={24}>
-          <div className="title-section">
-            <h1 className="title-text"> Naru mota chut hai</h1>
-          </div>
-        </Col>
-      </Row>
-    </div>
-  );
+      <>
+        <Row justify="center">
+          <Col flex={24}>
+            <Card className="plan-hero">
+              <h6 className="card-title">Plannning</h6>
+              <div className="develop-card">
+                <img alt="design" src="/assets/images/develop.png" />
+              </div>
+            </Card>
+          </Col>
+        </Row>
+        <div className="resource-list" style={{ paddingTop: 60 }}>
+          <Row justify="center">
+            <Col className="resource-list-card" flex={3}>
+              <Card
+              hoverable
+                style={{ width: 220, height: 200 }}
+              >
+                <p>Card content</p>
+                <p>Card content</p>
+                <p>Card content</p>
+              </Card>
+            </Col>
+            <Col className="resource-list-card" flex={3}>
+              <Card
+              hoverable
+                style={{ width: 220, height: 200 }}
+              >
+                <p>Card content</p>
+                <p>Card content</p>
+                <p>Card content</p>
+              </Card>
+            </Col>
+            <Col className="resource-list-card" flex={3}>
+              <Card
+              hoverable
+                style={{ width: 220, height: 200 }}
+              >
+                <p>Card content</p>
+                <p>Card content</p>
+                <p>Card content</p>
+              </Card>
+            </Col>
+            <Col className="resource-list-card" flex={2}>
+              <Card
+              hoverable
+                style={{ width: 220, height: 200 }}
+              >
+                <p>Card content</p>
+                <p>Card content</p>
+                <p>Card content</p>
+              </Card>
+            </Col>
+            <Col className="resource-list-card" flex={3}>
+              <Card
+              hoverable
+                style={{ width: 220, height: 200 }}
+              >
+                <p>Card content</p>
+                <p>Card content</p>
+                <p>Card content</p>
+              </Card>
+            </Col>
+            <Col className="resource-list-card" flex={3}>
+              <Card
+              hoverable
+                style={{ width: 220, height: 200 }}
+              >
+                <p>Card content</p>
+                <p>Card content</p>
+                <p>Card content</p>
+              </Card>
+            </Col>
+            <Col className="resource-list-card" flex={3}>
+              <Card
+              hoverable
+                style={{ width: 220, height: 200 }}
+              >
+                <p>Card content</p>
+                <p>Card content</p>
+                <p>Card content</p>
+              </Card>
+            </Col>
+            <Col className="resource-list-card" flex={3}>
+              <Card
+              hoverable
+                style={{ width: 220, height: 200 }}
+              >
+                <p>Card content</p>
+                <p>Card content</p>
+                <p>Card content</p>
+              </Card>
+            </Col>
+          </Row>
+        </div>
+      </>
+    );
   }
 }
 

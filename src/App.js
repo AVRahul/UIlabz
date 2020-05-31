@@ -4,8 +4,8 @@ import './App.css';
 import { Layout } from 'antd';
 import SiderMenu from './components/sider-menu/sider-menu';
 import Overview from './components/overview/overview';
-import Planning from './components/planning/planning';
-import Requirements from './components/requirements/requirements';
+import Inspiration from './components/inspiration/inspiration';
+import Library  from './components/library/library'
 import Design from './components/design/design';
 import Development from './components/development/development';
 import Testing from './components/testing/testing';
@@ -45,8 +45,8 @@ function App() {
               >
                 <Switch>
                   <Route exact path="/" component={Overview} />
-                  <Route path="/Planning" component={Planning} />
-                  <Route path="/Requirements" component={Requirements} />
+                  <Route path="/Inspiration" component={Inspiration} />
+                  <Route path="/Library" component={Library} />
                   <Route path="/Design" component={Design} />
                   <Route path="/Development" component={Development} />
                   <Route path="/Testing" component={Testing} />

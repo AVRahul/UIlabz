@@ -83,6 +83,13 @@
     opacity: 0.7;
 }
 
+/* Hero */
+
+.plan-hero{
+  width: 100%;
+  height: 250px;
+}
+
 .row2-card {
   margin-top: -200px;
 }
@@ -202,4 +209,12 @@
   padding-top: 2rem;
   font-family: "Share Tech", sans-serif;
   font-size: 36px;
+}
+
+.resource-list{
+    display: flex;
+}
+
+.resource-list-card {
+    padding-top: 2em;;
 }
