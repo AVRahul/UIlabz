@@ -8,7 +8,7 @@ class Learn extends Component {
         <Row justify="center">
           <Col flex={24}>
             <Card className="plan-hero">
-              <h6 className="card-title">Plannning</h6>
+              <h6 className="card-title">Learn</h6>
               <div className="develop-card">
                 <img alt="design" src="/assets/images/develop.png" />
               </div>

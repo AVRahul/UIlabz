@@ -9,6 +9,12 @@ class Inspiration extends Component {
           <Col flex={24}>
             <Card className="plan-hero">
               <h6 className="card-title">Inspiration</h6>
+              <div className="subtext-block">
+                <h4 className="subtitle-text">
+                  Deep dive into the various product development process with
+                  some amazing collection of open source resources.
+                </h4>
+              </div>
               <div className="plan-card">
                 <img alt="plan" src="/assets/images/idea.png" />
               </div>
@@ -18,80 +24,56 @@ class Inspiration extends Component {
         <div className="resource-list" style={{ paddingTop: 60 }}>
           <Row justify="center">
             <Col className="resource-list-card" flex={3}>
-              <Card
-              hoverable
-                style={{ width: 220, height: 200 }}
-              >
+              <Card hoverable style={{ width: 220, height: 200 }}>
                 <p>Card content</p>
                 <p>Card content</p>
                 <p>Card content</p>
               </Card>
             </Col>
             <Col className="resource-list-card" flex={3}>
-              <Card
-              hoverable
-                style={{ width: 220, height: 200 }}
-              >
+              <Card hoverable style={{ width: 220, height: 200 }}>
                 <p>Card content</p>
                 <p>Card content</p>
                 <p>Card content</p>
               </Card>
             </Col>
             <Col className="resource-list-card" flex={3}>
-              <Card
-              hoverable
-                style={{ width: 220, height: 200 }}
-              >
+              <Card hoverable style={{ width: 220, height: 200 }}>
                 <p>Card content</p>
                 <p>Card content</p>
                 <p>Card content</p>
               </Card>
             </Col>
             <Col className="resource-list-card" flex={2}>
-              <Card
-              hoverable
-                style={{ width: 220, height: 200 }}
-              >
+              <Card hoverable style={{ width: 220, height: 200 }}>
                 <p>Card content</p>
                 <p>Card content</p>
                 <p>Card content</p>
               </Card>
             </Col>
             <Col className="resource-list-card" flex={3}>
-              <Card
-              hoverable
-                style={{ width: 220, height: 200 }}
-              >
+              <Card hoverable style={{ width: 220, height: 200 }}>
                 <p>Card content</p>
                 <p>Card content</p>
                 <p>Card content</p>
               </Card>
             </Col>
             <Col className="resource-list-card" flex={3}>
-              <Card
-              hoverable
-                style={{ width: 220, height: 200 }}
-              >
+              <Card hoverable style={{ width: 220, height: 200 }}>
                 <p>Card content</p>
                 <p>Card content</p>
                 <p>Card content</p>
               </Card>
             </Col>
             <Col className="resource-list-card" flex={3}>
-              <Card
-              hoverable
-                style={{ width: 220, height: 200 }}
-              >
+              <Card hoverable style={{ width: 220, height: 200 }}>
                 <p>Card content</p>
                 <p>Card content</p>
                 <p>Card content</p>
               </Card>
             </Col>
             <Col className="resource-list-card" flex={3}>
-              <Card
-              hoverable
-                style={{ width: 220, height: 200 }}
-              >
+              <Card hoverable style={{ width: 220, height: 200 }}>
                 <p>Card content</p>
                 <p>Card content</p>
                 <p>Card content</p>
