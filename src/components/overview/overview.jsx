@@ -130,10 +130,10 @@ class Overview extends Component {
         </div>
         <div className="container mobile">
           <div className="title-section">
-            <h1 className="title-text"> Mobile version under construction</h1>
+            <h1 className="title-text"> Mobile site is under construction</h1>
             <div className="subtext-block">
               <h4 className="subtext-text">
-                Our developers a working hard to build the mobile version. Thanks for visiting!!
+                Our developers are working hard to build the mobile version. We will update you soon. Till then please try the desktop. Thanks for visiting!!
               </h4>
             </div>
           </div>
