@@ -49,6 +49,10 @@
   opacity: 0.7;
 }
 
+.design-card_layout{
+  margin-top: -14rem;
+}
+
 .develop-card {
   display: flex;
   justify-content: flex-end;
@@ -71,7 +75,7 @@
 }
 
 .deploy-card {
-  margin: -2rem;
+  margin: -2.5rem;
   display: flex;
   justify-content: flex-end;
   padding-right: 60px;
@@ -81,6 +85,8 @@
 .maintain-card{
     padding-top: 42px;
     opacity: 0.7;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* Hero */
@@ -91,7 +97,7 @@
 }
 
 .row2-card {
-  margin-top: -200px;
+  margin: 26px 0px;
 }
 
 .row3-card {
