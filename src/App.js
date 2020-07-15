@@ -5,7 +5,7 @@ import { Layout } from 'antd';
 import SiderMenu from './components/sider-menu/sider-menu';
 import Overview from './components/overview/overview';
 import Inspiration from './components/inspiration/inspiration';
-import Library  from './components/library/library'
+import Library from './components/library/library'
 import Design from './components/design/design';
 import Development from './components/development/development';
 import Testing from './components/testing/testing';
@@ -33,7 +33,7 @@ function App() {
               </Switch>
             </div>
           </Header>
-          <Layout>
+          <Layout >
             <SiderMenu />
             <Layout>
               <Content

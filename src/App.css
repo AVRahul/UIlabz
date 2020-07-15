@@ -31,13 +31,13 @@
   opacity: 0.7;
 }
 
-.requirement-card{
-    display: flex;
-    justify-content: flex-end;
-    margin: -1rem;
-    opacity: 0.7;
-    padding-right: -67px;
-    padding-top: 42px;
+.requirement-card {
+  display: flex;
+  justify-content: flex-end;
+  margin: -1rem;
+  opacity: 0.7;
+  padding-right: -67px;
+  padding-top: 42px;
 }
 
 .design-card {
@@ -49,7 +49,7 @@
   opacity: 0.7;
 }
 
-.design-card_layout{
+.design-card_layout {
   margin-top: -13.5rem;
 }
 
@@ -83,16 +83,16 @@
   opacity: 0.5;
 }
 
-.maintain-card{
-    padding-top: 42px;
-    opacity: 0.7;
-    display: flex;
-    justify-content: flex-end;
+.maintain-card {
+  padding-top: 42px;
+  opacity: 0.7;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* Hero */
 
-.plan-hero{
+.plan-hero {
   width: 100%;
   height: 250px;
 }
@@ -218,10 +218,43 @@
   font-size: 36px;
 }
 
-.resource-list{
-    display: flex;
+.resource-list {
+  display: flex;
 }
 
 .resource-list-card {
-    padding-top: 2em;;
+  padding-top: 2em;
+}
+
+/* Breakpoint for tablet / desktop devices */
+
+@media only screen and (min-width: 1126px) {
+  .mobile {
+    display: none;
+  }
+}
+
+/* Breakpoint for mobile devices */
+
+@media only screen and (max-width: 1125px) {
+  .desktop {
+    display: none;
+    height: 100%;
+  }
+
+  .body {
+    margin: 0;
+  }
+  .mobile {
+    background: #69c0ff;
+    overflow-x: unset;
+  }
+
+  .ant-layout-sider-zero-width-trigger {
+    background: #ffffff;
+  }
+
+  .title-text {
+    font-size: 36px;
+  }
 }
