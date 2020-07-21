@@ -132,6 +132,22 @@
   width: 30em;
 }
 
+.process-title{
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 2px;
+}
+.processText-block {
+  display: flex;
+  justify-content: start;
+}
+
+.subProcess-text{
+  text-align: left;
+}
+
 /* header */
 
 .ant-layout-header {

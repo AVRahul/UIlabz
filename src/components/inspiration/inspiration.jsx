@@ -5,23 +5,18 @@ class Inspiration extends Component {
   render() {
     return (
       <>
-        <Row justify="center">
-          <Col flex={24}>
-            <Card className="plan-hero">
-              <h6 className="card-title">Inspiration</h6>
-              <div className="subtext-block">
-                <h4 className="subtitle-text">
+        <Row>
+          <Col span={10}>
+              <h6 className="process-title">Inspiration</h6>
+              <div className="processText-block">
+                <h4 className="subProcess-text">
                   Deep dive into the various product development process with
                   some amazing collection of open source resources.
                 </h4>
               </div>
-              <div className="plan-card">
-                <img alt="plan" src="/assets/images/idea.png" />
-              </div>
-            </Card>
           </Col>
         </Row>
-        <div className="resource-list" style={{ paddingTop: 60 }}>
+        <div className="resource-list" style={{ paddingTop: 20 }}>
           <Row justify="center">
             <Col className="resource-list-card" flex={3}>
               <Card hoverable style={{ width: 220, height: 200 }}>
